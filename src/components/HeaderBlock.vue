@@ -14,26 +14,9 @@
       <div class="col-7">
         <div class="header-block__search">
           <div class="header-block__search_category">
-            <ul class="topmenu">
-              <li><a href="#">
-                <img 
-                  src="@/assets/images/icons/dropdown-grey.svg" 
-                  alt="dropdown"
-                  class="header-block__dropdown"
-                ></a>
+            
+            <i class="bi bi-caret-down"></i>
 
-                <ul class="submenu">
-                  <li><a href="#">Букеты</a></li>
-                  <li><a href="#">Подарки</a></li>
-                  <li><a href="#">Цветы в горшке</a></li>
-                  <li><a href="#">Цветы в коробке</a></li>
-                  <li><a href="#">Розы</a></li>
-                  <li><a href="#">Ромашки</a></li>
-                </ul>
-                
-              </li>
-            </ul>
-            <!-- <i class="bi bi-caret-down"></i> -->
             <input 
               type="text"
               id="category"
@@ -52,122 +35,16 @@
               class="header-block__input"  
             >
             <!-- <label for="product">Поиск по товарам</label> -->
-            <img 
+            <!-- <img 
               src="@/assets/images/icons/search.svg" 
               alt="search"
               class="header-block__search_img"
-            >
+            > -->
+            <i class="bi bi-search"></i>
           </div>
         </div>
 
-        <nav class="header-block__nav">
-          <ul class="topmenu">
-            <li><a a class="top" href="#">Каталог товаров</a>
-              <img 
-                src="@/assets/images/icons/dropdown-black.svg" 
-                alt="dropdown"
-                class="header-block__dropdown"
-              >
-
-              <ul class="submenu">
-                <li><a href="#">Букеты</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul> 
-                </li>
-                <li><a href="#">Розы</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>
-                </li>
-
-                <li><a href="#">Цветы в коробке</a>
-                  <i class="bi bi-chevron-right"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке с пироженым Macarons</a></li>
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Цветы в прямоугольной коробке</a></li>
-                    <li><a href="#">Цветы в шляпной коробке</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>                
-                </li>
-
-                <li><a href="#">Композиции</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Подарки</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Подарочные корзины</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Букеты невесты</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Вкусные букеты</a>
-                  <i class="bi bi-chevron-left"></i> 
-                  <ul class="submenu">
-                    <li><a href="#">Цветы в коробке сердце</a></li>
-                    <li><a href="#">Розы в коробке</a></li>
-                    <li><a href="#">Пионы в коробке</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li><a class="top" href="#">Форум</a></li>
-            <li><a class="top" href="#">Отзывы</a></li>
-            <li><a class="top" href="#">Акции</a></li>
-            <li><a class="top" href="#">Новости</a></li>
-
-            <li><a class="top" href="#">Информация</a>
-              <img 
-                src="@/assets/images/icons/dropdown-black.svg" 
-                alt="dropdown"
-                class="header-block__dropdown"
-              >
-
-              <ul class="submenu">
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Политика конфиденциальности</a></li>
-                <li><a href="#">Карта сайта</a></li>
-                <li><a href="#">Связаться с нами</a></li>
-                <li><a href="#">Доставка и оплата</a></li>
-                <li><a href="#">Возврат товара</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-
-        
-        
+        <top-menu />
       </div>
 
       <div class="col-3">
@@ -226,8 +103,15 @@
 </template>
 
 <script>
+import TopMenu from '@/components/TopMenu/TopMenu.vue'
+
+
+
   export default {
-    name: 'HeaderBlock'
+    name: 'HeaderBlock',
+    components: {
+      TopMenu
+    }
   }
 </script>
 
@@ -264,81 +148,6 @@
     width: 100%;
     border-bottom: 1px solid #956D84;
   }
-  
-  // Navigation & links
-  &__nav {
-    margin-top: 47px;
-  }
-
-  .topmenu {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-  }
-
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: $black;      
-  }
-  a:hover {
-    color: $purple;
-  }
-
-  ul {
-    padding-left: 0;  // читерство  
-  }
-
-  .top {
-    font-weight: 700;
-  }
-
-  .submenu {
-    min-width: 240px;
-    list-style: none;
-    position: absolute;
-
-    border: 1px solid $purple;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-
-    z-index: 5;
-    transform-origin: 0 0;
-    transform: rotateX(-90deg);
-    transition: .3s linear;
-    visibility: hidden;
-    opacity: 0;
-  }
-
-  .submenu li {
-    position: relative;
-  }
-
-  .submenu .submenu {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    transition: transform .3s linear;
-  }
-
-  .topmenu li:hover > .submenu {
-    visibility: visible;
-    opacity: 1;
-    transform: rotateX(0deg);
-  }
-  .submenu a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 14px;   
-    padding-right: 10px;
-    // padding: 20px 10px 20px 14px;
-    // border: 1px solid #eee; 
-    // display: block;
-  }
-  .submenu a:hover {
-    background-color: $purple;
-    color: $white;
-  }
-  // =====================================
 
 
   &__info {

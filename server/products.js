@@ -101,7 +101,7 @@ class DataBase {
       },
       {
         id: 103,
-        parent_id: 1,
+        parent_id: 101,
         name: 'Букеты из гербер'
       },
       {
@@ -139,6 +139,7 @@ class DataBase {
         parent_id: 1,
         name: 'Букеты из гортензии'
       },
+
       {
         id: 2,
         parent_id: 0,
@@ -168,7 +169,148 @@ class DataBase {
         id: 204,
         parent_id: 2,
         name: 'Роза черная'
-      }
+      },
+
+      {
+        id: 3,
+        parent_id: 0,
+        name: 'Цветы в коробке'
+      },
+      {
+        id: 300,
+        parent_id: 3,
+        name: 'Цветы в коробке с пироженным Macarons'
+      },
+      {
+        id: 301,
+        parent_id: 3,
+        name: 'Цветы в коробке сердце'
+      },
+      {
+        id: 302,
+        parent_id: 3,
+        name: 'Цветы в прямоугольной коробке'
+      },
+      {
+        id: 303,
+        parent_id: 3,
+        name: 'Цветы в шляпной коробке'
+      },
+      {
+        id: 304,
+        parent_id: 3,
+        name: 'Розы в коробке'
+      },
+      {
+        id: 305,
+        parent_id: 3,
+        name: 'Пионы в коробке'
+      },
+
+      {
+        id: 4,
+        parent_id: 0,
+        name: 'Композиции'
+      },
+      {
+        id: 400,
+        parent_id: 4,
+        name: 'Композиции в коробке'
+      },
+      {
+        id: 401,
+        parent_id: 4,
+        name: 'Композиции без коробки'
+      },
+      {
+        id: 402,
+        parent_id: 4,
+        name: 'Композиции в горшках'
+      },
+
+      {
+        id: 5,
+        parent_id: 0,
+        name: 'Подарки'
+      },
+      {
+        id: 500,
+        parent_id: 5,
+        name: 'Мягкие игрушки'
+      },
+      {
+        id: 501,
+        parent_id: 5,
+        name: 'Открытки'
+      },
+      {
+        id: 502,
+        parent_id: 5,
+        name: 'Подарок в форме сердца'
+      },
+
+      {
+        id: 6,
+        parent_id: 0,
+        name: 'Подарочные корзины'
+      },
+      {
+        id: 600,
+        parent_id: 6,
+        name: 'Подарочные композиции'
+      },
+      {
+        id: 601,
+        parent_id: 6,
+        name: 'Корзины шоколада'
+      },
+      {
+        id: 602,
+        parent_id: 6,
+        name: 'Корзины микс'
+      },
+
+      {
+        id: 7,
+        parent_id: 0,
+        name: 'Букеты невесты'
+      },
+      {
+        id: 700,
+        parent_id: 7,
+        name: 'Букеты l'
+      },
+      {
+        id: 701,
+        parent_id: 7,
+        name: 'Букеты XL'
+      },
+      {
+        id: 702,
+        parent_id: 7,
+        name: 'Букеты XXL'
+      },
+
+      {
+        id: 8,
+        parent_id: 0,
+        name: 'Вкусные букеты'
+      },
+      {
+        id: 800,
+        parent_id: 8,
+        name: 'Вкусные букеты l'
+      },
+      {
+        id: 801,
+        parent_id: 8,
+        name: 'Вкусные букеты XL'
+      },
+      {
+        id: 802,
+        parent_id: 8,
+        name: 'Вкусные букеты XXL'
+      },
     ]
 
     this.basket = []

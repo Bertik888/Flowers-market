@@ -1,72 +1,75 @@
 <template>
-  <div class="action-card">
-    <h1>Акции</h1>
+  <div class="present-card">
+    <h1>Подарки</h1>
     <div class="row">
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/red-roses.png" 
-                alt="roses"
+                src="@/assets/images/present_card/napol.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+              Торт Наполеон
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -74,70 +77,73 @@
       </div>
 
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/pink-roses.png" 
-                alt="roses"
+                src="@/assets/images/present_card/kiev.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+             Киевский торт
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -145,70 +151,73 @@
       </div>
 
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/love-roses.png" 
-                alt="roses"
+                src="@/assets/images/present_card/levant.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+              Торт Наполеон
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -216,70 +225,148 @@
       </div>
 
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/basket-flowers.png" 
-                alt="roses"
+                src="@/assets/images/present_card/dr.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+              Торт Наполеон
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
+          <div class="present-card__order">
+            Быстрый заказ
+          </div>
+
+        </div>      
+      </div>
+
+
+      <div class="col-3">
+        <div class="present-card__items"> 
+
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
+            </div>
+            <div class="present-card__top">
+              TOP
+            </div>
+          </div>
+
+          <div class="present-card__item">
+            <div class="present-card__image">
+              <img 
+                src="@/assets/images/present_card/napol.png" 
+                alt="napol"
+              >
+            </div>
+          </div>  
+          
+          <div class="present-card__stars">
+            <img 
+              src="@/assets/images/actions_card/star.svg" 
+              alt="star"   
+              class="present-card__star"           
+            >
+            <img 
+              src="@/assets/images/actions_card/star.svg" 
+              alt="star"   
+              class="present-card__star"           
+            >
+            <img 
+              src="@/assets/images/actions_card/star.svg" 
+              alt="star"   
+              class="present-card__star"           
+            >
+            <img 
+              src="@/assets/images/actions_card/star.svg" 
+              alt="star"   
+              class="present-card__star"           
+            >
+            <img 
+              src="@/assets/images/actions_card/star.svg" 
+              alt="star"   
+              class="present-card__star"           
+            >
+          </div>
+
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+              Торт Наполеон
+            </div>
+            <div class="present-card__price">
+              1800 руб
+            </div>
+          </div>
+
+          <div class="present-card__button">
+            <button class="btn">
+              Заказать
+            </button>
+          </div>
+
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -287,70 +374,73 @@
       </div>
 
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/red-roses.png" 
-                alt="roses"
+                src="@/assets/images/present_card/kiev.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+             Киевский торт
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -358,70 +448,73 @@
       </div>
 
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/red-roses.png" 
-                alt="roses"
+                src="@/assets/images/present_card/levant.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+              Торт Наполеон
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -429,141 +522,73 @@
       </div>
 
       <div class="col-3">
-        <div class="action-card__items"> 
+        <div class="present-card__items"> 
 
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
+          <div class="present-card__info">
+            <div class="present-card__discount">
+              <img 
+                src="@/assets/images/icons/favorites.svg" 
+                alt="favorites"
+              >
             </div>
-            <div class="action-card__top">
+            <div class="present-card__top">
               TOP
             </div>
           </div>
 
-          <div class="action-card__item">
-            <div class="action-card__image">
+          <div class="present-card__item">
+            <div class="present-card__image">
               <img 
-                src="@/assets/images/actions_card/red-roses.png" 
-                alt="roses"
+                src="@/assets/images/present_card/dr.png" 
+                alt="napol"
               >
             </div>
           </div>  
           
-          <div class="action-card__stars">
+          <div class="present-card__stars">
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
             <img 
               src="@/assets/images/actions_card/star.svg" 
               alt="star"   
-              class="action-card__star"           
+              class="present-card__star"           
             >
           </div>
 
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
+          <div class="present-card__content">
+            <div class="present-card__quantity">
+              Торт Наполеон
             </div>
-            <div class="action-card__price">
-              3800 руб
+            <div class="present-card__price">
+              1800 руб
             </div>
           </div>
 
-          <div class="action-card__button">
+          <div class="present-card__button">
             <button class="btn">
               Заказать
             </button>
           </div>
 
-          <div class="action-card__order">
-            Быстрый заказ
-          </div>
-
-        </div>      
-      </div>
-
-      <div class="col-3">
-        <div class="action-card__items"> 
-
-          <div class="action-card__info">
-            <div class="action-card__discount">
-              -19%
-            </div>
-            <div class="action-card__top">
-              TOP
-            </div>
-          </div>
-
-          <div class="action-card__item">
-            <div class="action-card__image">
-              <img 
-                src="@/assets/images/actions_card/red-roses.png" 
-                alt="roses"
-              >
-            </div>
-          </div>  
-          
-          <div class="action-card__stars">
-            <img 
-              src="@/assets/images/actions_card/star.svg" 
-              alt="star"   
-              class="action-card__star"           
-            >
-            <img 
-              src="@/assets/images/actions_card/star.svg" 
-              alt="star"   
-              class="action-card__star"           
-            >
-            <img 
-              src="@/assets/images/actions_card/star.svg" 
-              alt="star"   
-              class="action-card__star"           
-            >
-            <img 
-              src="@/assets/images/actions_card/star.svg" 
-              alt="star"   
-              class="action-card__star"           
-            >
-            <img 
-              src="@/assets/images/actions_card/star.svg" 
-              alt="star"   
-              class="action-card__star"           
-            >
-          </div>
-
-          <div class="action-card__content">
-            <div class="action-card__quantity">
-              101 красная роза
-            </div>
-            <div class="action-card__price">
-              3800 руб
-            </div>
-          </div>
-
-          <div class="action-card__button">
-            <button class="btn">
-              Заказать
-            </button>
-          </div>
-
-          <div class="action-card__order">
+          <div class="present-card__order">
             Быстрый заказ
           </div>
 
@@ -577,14 +602,14 @@
 
 <script>
   export default {
-    name: 'ActionCard'    
+    name: 'PresentCard'    
   }
 </script>
 
 <style lang="scss" scoped>
 @import '@/assets/css/variables.scss';
 
-.action-card {
+.present-card {
 
   h1 {                   
     font-size: 48px;
@@ -666,4 +691,3 @@
 }
 
 </style>
-
