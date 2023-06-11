@@ -1,14 +1,16 @@
 <template>
 
-<!-- баннеры и акции -->
+  <banners />
 
-<banners />
+  <photo-card />
 
-<photo-card />
+  <action-card />
 
-<action-card />
+  <present-card />
 
-<present-card />
+  <forum-card />
+
+  <map-block />
 
 
 
@@ -22,6 +24,9 @@ import Banners from '@/components/Banners.vue'
 import PhotoCard from '@/components/PhotoCard.vue'
 import ActionCard from '@/components/ActionCard.vue'
 import PresentCard from '@/components/PresentCard.vue'
+import ForumCard from '@/components/ForumCard.vue'
+import MapBlock from '@/components/MapBlock.vue'
+
 
 export default {
   name: 'HomeView',
@@ -29,7 +34,9 @@ export default {
     Banners,
     PhotoCard,
     ActionCard,
-    PresentCard
+    PresentCard,
+    ForumCard,
+    MapBlock
 
   }
 }
