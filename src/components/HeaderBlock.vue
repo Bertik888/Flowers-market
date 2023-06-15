@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-2">
         <img 
-          src="@/assets/images/logo/logo-top.png" 
+          src="@/assets/images/logo/logo.png" 
           alt="logo"
           class="header-block__logo"
         >

@@ -58,7 +58,10 @@
       </div>
 
       <div class="action-card__button">
-        <button class="btn">
+        <button 
+          @click="isOpenCard = true"        
+          class="btn"
+        >
           Заказать
         </button>
       </div>
@@ -67,14 +70,42 @@
         Быстрый заказ
       </div>
 
+      <dialog-modal 
+        :isOpen="isOpenCard"
+        @hide="isOpenCard = false"
+      >
+
+        <product-item-modal 
+          :item="item"
+        />
+      </dialog-modal>
+
     </div>      
   </div>
 </template>
 
 <script>
+import DialogModal from './DialogModal.vue'
+import ProductItemModal from './ProductItemModal'
 
   export default {
-    name: 'ProductCard'
+    name: 'ProductCard',
+    components: {
+      DialogModal,
+      ProductItemModal
+    },
+
+    data() {
+      return {
+        isOpenCard: false
+      }
+    },
+
+    props: {
+      item: {
+        type: Object
+      }
+    }
     
   }
 </script>

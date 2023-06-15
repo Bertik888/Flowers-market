@@ -2,7 +2,15 @@
   <div class="action-card">
     <h1>Акции</h1>
     <div class="row">
-      <div class="col-3">
+      <div 
+        v-for="item in products"
+        :key="item.id"
+        class="col-3"      
+      >
+
+        <product-card 
+          :item="item"
+        />
         <div class="action-card__items"> 
 
           <div class="action-card__info">
@@ -307,7 +315,14 @@ import ProductCard from './ProductCard.vue'
     name: 'Products',
     components: {
       ProductCard
-    }    
+    }, 
+    
+    props: {
+      products: {
+        type: Array,
+        default: []
+      }
+    }
   }
 </script>
 

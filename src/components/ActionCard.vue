@@ -11,7 +11,7 @@ import Products from './Products.vue'
     name: 'ActionCard',
     components: {
       Products
-    }    
+    }
   }
 </script>
 

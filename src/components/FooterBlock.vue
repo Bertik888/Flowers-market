@@ -5,7 +5,7 @@
 
         <div class="col-3">
           <img 
-            src="@/assets/images/logo/logo-bottom.png" 
+            src="@/assets/images/logo/logo.png" 
             alt="logo"
             class="footer-block__logo"
           >
@@ -88,7 +88,7 @@
   margin-top: 85px;
 
   &__logo {
-    margin-top: 32px;
+    margin-top: 70px;
   }
   
   &__title{
