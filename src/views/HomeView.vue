@@ -4,11 +4,25 @@
 
   <photo-card />
 
-  <action-card />
+  <products 
+    :products="productsAction"
+    title="Акции"
+  />
 
-  <present-card />
+  <products 
+    :products="productsSeason"
+    title="Сезонные"
+  />
+
+  <products 
+    :products="productsPresent"
+    title="Подарки"
+  />
+
 
   <forum-card />
+
+  <basket />
 
   <map-block />
 
@@ -20,11 +34,15 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import Banners from '@/components/Banners.vue'
 import PhotoCard from '@/components/PhotoCard.vue'
-import ActionCard from '@/components/ActionCard.vue'
-import PresentCard from '@/components/PresentCard.vue'
+import Products from '@/components/Products.vue'
 import ForumCard from '@/components/ForumCard.vue'
+
+import Basket from '@/components/Basket.vue'
+
 import MapBlock from '@/components/MapBlock.vue'
 
 
@@ -33,12 +51,32 @@ export default {
   components: {
     Banners,
     PhotoCard,
-    ActionCard,
-    PresentCard,
+    Products,
     ForumCard,
+    Basket,
     MapBlock
+  },
 
+  computed: {
+    ...mapGetters({
+      productsAction: 'products/productsAction',
+      productsSeason: 'products/productsSeason',
+      productsPresent: 'products/productsPresent'
+    }),
+  },
+
+  mounted() {
+    this.getProducts() 
+  },
+
+  methods: {
+    async getProducts() {
+      this.$store.dispatch('products/getProducts')
+    }
   }
+
+  
+
 }
 </script>
 

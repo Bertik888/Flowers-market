@@ -75,8 +75,8 @@ body {
   font-family: $font-family-museo;
   font-weight: 300;
   font-size: 16px;
-  color: $black;
   line-height: 18px;
+  color: $black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $white;
